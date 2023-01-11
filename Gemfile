@@ -51,6 +51,12 @@ gem 'bulma-rails', '~> 0.9.4'
 # Use simple_form to generate forms [https://github.com/heartcombo/simple_form]
 gem 'simple_form', '~> 5.1'
 
+# Use gravatar_image_tag to generate gravatar images [https://github.com/mdeering/gravatar_image_tag]
+gem 'gravatar_image_tag', '~> 1.2'
+
+# Use devise to manage users [https://github.com/heartcombo/devise]
+gem 'devise', '~> 4.8', '>= 4.8.1'
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
