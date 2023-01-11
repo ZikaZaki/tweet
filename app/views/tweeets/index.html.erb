@@ -1,8 +1,16 @@
-<p style="color: green"><%= notice %></p>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <%= render 'trends' %>
+      <%= render 'feed' %>
+      <%= render 'who-to-follow' %>
+    </div>
+  </div>
+</section>
 
-<h1>Tweeets</h1>
-
-<div id="tweeets">
+<%
+=begin%>
+ <div id="tweeets">
   <% @tweeets.each do |tweeet| %>
     <%= render tweeet %>
     <p>
@@ -11,4 +19,6 @@
   <% end %>
 </div>
 
-<%= link_to "New tweeet", new_tweeet_path %>
+<%= link_to "New tweeet", new_tweeet_path %> 
+<%
+=end%>
